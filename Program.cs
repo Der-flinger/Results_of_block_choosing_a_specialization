@@ -43,6 +43,7 @@ void FillArray1 (string[] array, int length)                        // мето�
 {
     for (int i = 0; i < length; i++)
     {
+        System.Console.Write($"Введите элемент № {i + 1} массива: ");
         array[i] = Console.ReadLine()!;
     }
 }
